@@ -36,7 +36,7 @@ secrets:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/censys-host@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/censys-host@sha256:5cb90b219a03ac1c0fe82ec6c11f4f3b1d6a692f6efc42a5ab5343810a6bc4b7
   platforms: [linux/amd64, linux/arm64]
   command: ["censys-host", "{ip}"]
   output_format: json
